@@ -1,0 +1,22 @@
+.StudentCard{
+  display: none;
+}
+
+.FacultyCard{
+  display: none;
+}
+
+.heading{
+    align-content: center;
+    display: block;
+    margin-top: 150px;
+    font-size: 100px;
+    font-family: fantasy;
+}
+
+.checkbox-blue-grey[type="checkbox"].filled-in:checked + span:not(.lever):after 
+{
+    border: 10px solid white !important;  
+    background-color: white !important;
+}
+
